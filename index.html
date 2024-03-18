@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js" defer></script>
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <div class="imagens-topo">
+            <img src="assets/alura.png" alt="Logo da Alura" class="logo">
+            <img class="imagem-garoto" src="assets/Vetor.png" alt="Garoto Alura">
+        </div>
+        
+    </header>
+   
+    <main>
+        
+        <div class="criptografia">
+            <p class="aviso"><img src="assets/bi_exclamation-circle-fill.png" alt="Ícone de aviso"> somente letras
+                minúsculas e sem acento</p>
+            <section>
+                <textarea wrap="hard" class="inserirTexto" placeholder="Digite seu texto"></textarea>
+            </section>
+
+            <div class="btn_criptografia">
+                <button id="codificador" class="btn">Criptografar</button>
+                <button id="decodificador" class="btn">Descriptografar</button>
+            </div>
+            
+        </div>
+        
+        <div class="resultado">
+            <textarea class="texto_criptografado" placeholder="Texto Criptografado" readonly></textarea>
+            <button id="copiar" class="btn">Copiar Texto</button>
+            <button id="limpar" class="btn">Limpar Campos</button>
+        </div>
+    </main>
+    <footer>
+        <div class="contato">
+            <p class="desenvolvedor">Desenvolvido por <strong>Paulo Rodrigues.</strong></p>
+            <a href="https://www.linkedin.com/in/paulo-rodriguesdev/"><img src="assets/logo_linkedin.png"
+                    alt="Logo do LinkedIn" class="linkedin"></a>
+            <a href="https://github.com/PauloCRodrigues"><img src="assets/logo_github.png" alt="Logo do GitHub"
+                    class="github"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
